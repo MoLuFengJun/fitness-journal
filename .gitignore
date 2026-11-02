@@ -1,0 +1,38 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+.idea/
+*.iml
+
+# Device/user data: never publish
+private/
+backups/
+exports/
+device-evidence/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.fjbackup
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
+# Local logs and OS
+*.log
+Thumbs.db
+.DS_Store
+
+# Keep Gradle wrapper JAR and Room schema JSON tracked.
