@@ -36,3 +36,6 @@ Thumbs.db
 .DS_Store
 
 # Keep Gradle wrapper JAR and Room schema JSON tracked.
+
+# Per-machine identity, paths and sync notes; never copy across machines
+.local/

@@ -7,7 +7,7 @@
 ## 从这里开始
 
 1. AI 或开发者先读 [AGENTS.md](AGENTS.md)。
-2. 打开 [接续入口](docs/START-HERE.md)，确定当前任务。
+2. 打开 [接续入口](docs/START-HERE.md)，先识别公司/家用环境，再确定当前任务。
 3. 查看 [完整开发路线](docs/DEVELOPMENT-PLAN.md) 与对应任务卡。
 4. 每次完成一个任务，更新 [进度表](docs/progress/STATUS.md) 和会话记录。
 
@@ -36,7 +36,11 @@
 | [测试计划](docs/TEST-PLAN.md) | 测试类型、操作步骤、发布门槛 |
 | [决策记录](docs/DECISIONS.md) | 已确认、暂定、明确推迟的事项 |
 | [资料来源](docs/SOURCES.md) | 官方技术文档与计算依据 |
-| [环境记录](docs/progress/ENVIRONMENT.md) | 实际工具版本与验证结果 |
+| [双环境索引](docs/progress/ENVIRONMENT.md) | 环境识别与本机准备检查 |
+| [公司](docs/progress/environments/COMPANY.md) / [家用](docs/progress/environments/HOME.md) | 各自工具、网络与构建结果 |
+| [跨电脑与同步手册](docs/MULTI-ENV-WORKFLOW.md) | 连接器成功经验、冲突处理与换机交接 |
 | [进度状态](docs/progress/STATUS.md) | 已完成什么、下一步做什么 |
+
+双环境规则补充：2026-11-03。项目进度共享，环境状态独立；公司已验证通道是GitHub连接器，不代表本地git push成功。
 
 计划基准日：2026-11-02，北京时间。技术依赖在首次成功构建时锁定，不能把文档中的示例版本当成已验证组合。
